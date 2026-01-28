@@ -8,8 +8,8 @@ export default defineConfig({
     federation({
       name: "shell",
       remotes: {
-        mfeVue: "http://localhost:3001/remoteEntry.js",
-        mfeReact: "http://localhost:3002/remoteEntry.js",
+        mfeVue: "http://localhost:4173/assets/remoteEntry.js",
+        mfeReact: "http://localhost:4174/assets/remoteEntry.js",
       },
       shared: ["react", "react-dom"],
     }),
